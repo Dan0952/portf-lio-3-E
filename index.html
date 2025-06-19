@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do Danilo" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Danilo</p>
+        <h1>Sou estudante do último ano do Ensino Médio na E.E Padre Simon Switzar</h1>
+        <p>Apredendo programação e trazendo um pouco sobre as minhas habilidades na escrita e na fotografia</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Andar de Bicicleta</p>
+            <p class="badge bg-secondary">Tenho facilidade em Língua Portuguesa</p>
+            <p class="badge bg-secondary">Fotografia em Dispositivos Móveis (Curso com certificado)</p>
+            <p class="badge bg-secondary">Faço curso online de comunicação escrita e oral </p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Fotografia em Dispositivos Móveis</h5>
+                        <p class="card-text">Neste curso aprendi que tirar uma foto não é só pegar um celular
+                             e tirar, mas aprendi a conhecer sobre resolução, tipo de imagem e padrão de cores,
+                            tipos de luz e foco que são fundamental para ter uma foto de qualidade.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt=>
+                    <div class="card-body">
+                        <h5 class="card-title"> Língua Portuguesa</h5>
+                        <p class="card-text">Tenho desenvoltura em Lingua Portuguesa através dos estudos na escola 
+                            e ao curso de comunicação oral e escrita,  </em></em></em></p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto do Curso de Comunicação Oral e escrita">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Comunicação Oral e escrita</h5>
+                        <p class="card-text">Com este curso vou desenvolver especialmente para os aspectos da
+                             língua portuguesa que mais causam dúvidas. Vou aprimorar minha competência comunicativa, 
+                             compreendendo as diferenças entre situações formais e informais e reconhecendo a norma culta
+                              como uma ferramenta essencial para escrever ou falar com desenvoltura.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Curso de Fotografia em Dispositivos Móveis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O curso de fotografia em dispositivos móveis tem como objetivo ensinar a tirar fotos de 
+                        qualidade usando apenas o celular. Nele, o aluno aprende os principais conceitos da fotografia, 
+                        como iluminação, enquadramento, composição, foco, exposição e uso criativo da luz natural. 
+                        Também são abordadas as funções da câmera do smartphone, dicas para diferentes tipos de
+                        foto (retrato, paisagem, noturna, etc.) e o uso de aplicativos de edição para melhorar as
+                        imagens. O curso é ideal para quem deseja registrar momentos com mais qualidade, produzir
+                        conteúdo para redes sociais ou até iniciar na fotografia de forma prática e acessível.</p>
+
+                    <p>Aprendi sobre criação e edição de imagens utilizando dispositivos móveis e terá base para 
+                        fotografar e manipular fotos com o seu aparelho celular. No decorrer do curso, realizei 
+                        alguns exercícios que auxiliarão na aprendizagem sobre as principais técnicas abordadas em 
+                        cada aula. Além disso, conheci um pouco sobre teoria das cores, definição e resolução de 
+                        imagens digitais. Finalizei este curso, estou apto a tirar fotos com mais qualidade, 
+                        utilizando o celular.</p>
+                    <img src="img/projeto-1.png" alt="Imagem representativa do projeto do curso de programação">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/Dan0952/portf-lio-3-E">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/Dan0952">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Danilo Monteiro</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
